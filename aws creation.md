@@ -1,107 +1,108 @@
-# AWS Account Creation Infographic: Your Guide to the AWS Cloud
+# AWS Account Creation Project Submission Report
 
-**Author:**Afolayan Oladipo
-**Date:** July 31, 2025
-
-This document outlines the key steps and information presented in the "AWS Account Creation Infographic" Single Page Application (SPA). The SPA visualizes the process of creating an AWS account, prerequisites, and crucial post-creation security measures.
-
----
-
-## Project Overview
-
-This infographic serves as a comprehensive guide for individuals looking to set up their first Amazon Web Services (AWS) account. It simplifies the signup journey into digestible steps and highlights essential security practices that should be adopted immediately after account creation. The goal is to provide a clear, concise, and visually engaging narrative for new AWS users.
-
-![alt text](<Screenshot 2025-07-31 131135.png>)
-
-![alt text](<Screenshot 2025-07-31 131219.png>)
----
-
-## 1. What You'll Need to Get Started (Prerequisites)
-
-Before diving into the account creation process, it's essential to have a few items ready to ensure a smooth signup.
-
-* **A Valid Email Address:** This will serve as your primary login credential (root user) and communication channel with AWS.
-* **A Phone Number:** Required for identity verification, typically via SMS or a phone call.
-* **A Credit/Debit Card:** Necessary for identity verification and to cover any costs if your usage exceeds the generous AWS Free Tier limits. A small temporary hold might be placed to verify the card.
-
-**Visualization Method:** Simple, card-based layout with Unicode icons (✉️, 📱, 💳) and descriptive text. This provides a clear, organized list.
-
-![alt text](<Screenshot 2025-07-31 131252.png>)
-## 2. The 10-Step Journey to the Cloud (Account Creation Process)
-
-Creating an AWS account involves a structured 10-step process. Each step is vital for setting up your gateway to the AWS ecosystem.
-
-The process flow is as follows:
-
-1.  **Visit AWS Website:** Navigate to the official AWS website (aws.amazon.com).
-2.  **Initiate Signup:** Click the "Create an AWS Account" button.
-3.  **Enter Details:** Provide your valid email address and choose a descriptive AWS account name.
-4.  **Verify Email:** Check your inbox for a verification code from AWS and enter it on the signup page.
-![alt text](<Screenshot 2025-07-31 133115.png>)
-5.  **Set Password:** Create a strong, unique password for your AWS root user.
-6.  **Add Contact Info:** Select your account type (Personal/Professional) and fill in your full name, phone number, and address.
-7.  **Add Billing Info:** Enter your credit or debit card details for verification and billing purposes.
-8.  **Verify Phone:** Confirm your identity by receiving and entering a verification code via SMS or a call to your provided phone number.
-![alt text](<Screenshot 2025-07-31 133227.png>)
-9.  **Select Support Plan:** Choose your desired support plan. For learning and personal projects, the **"Basic Support (Free)"** plan is recommended.
-10. **Complete!:** Confirm signup and proceed to the AWS Management Console.
-
-
-**Visualization Method:** A custom flowchart-like structure implemented using HTML and Tailwind CSS. Each step is represented by a distinct card, connected by styled lines and directional arrows, clearly illustrating the sequential nature of the process.
+**Author:** AFOLAYAN OLADIPO
+**Date:** 1ST AUGUST 2025
+**Project Duration:** ~2 hours
 
 ---
 
-## 3. Choosing Your Support Plan
+## 1. Executive Summary
 
-AWS offers different support tiers, each with varying levels of assistance and associated costs. For new users and those on the Free Tier, understanding the cost implications is key.
-
-**Data Presented:**
-
-* **Basic Support:** $0.00 / month
-* **Developer Support:** Starts at $29 / month
-* **Business Support:** Starts at $100 / month
-
-![alt text](<Screenshot 2025-07-31 133241.png>)
-
-![alt text](<Screenshot 2025-07-31 135328.png>)
-
-**Visualization Method:** A **Bar Chart** (rendered with Chart.js) clearly comparing the starting monthly costs of the different AWS support plans. This visual comparison highlights the free nature of the Basic Support plan, which is ideal for beginners.
+This report documents the successful completion of the AWS Account Creation project. The objective was to perform and document the tangible, hands-on steps required to create a new Amazon Web Services (AWS) account. The process included fulfilling prerequisites, navigating the online registration forms, completing all necessary verification steps, and performing critical post-creation security configurations. All project goals were met, providing a practical demonstration of the entire account setup process.
 
 ---
 
-## 4. You're In! What's Next? (Post-Creation Security)
+## 2. Project Goals and Learning Outcomes
 
-After successfully creating your account, the most critical next steps involve securing your AWS environment. Implementing these practices immediately adds robust protection to your cloud resources.
+The following goals were achieved during the execution of this project:
 
-### 4.1. Layer Your Security
+* **Successful AWS Account Creation:** A new AWS account was created from scratch, including all stages of the signup process.
+* **Verification Completion:** The email, phone number, and billing information were successfully verified with AWS.
+* **AWS Management Console Navigation:** The newly created account was used to log in to the AWS Management Console, and its key features were explored.
+* **Practical Security Implementation:** Multi-Factor Authentication (MFA) was configured for the root user, and an IAM user was created to follow best practices for daily account access.
 
-Security in AWS is best approached with multiple layers. Two immediate actions significantly enhance your account's protection.
-
-**Concept Presented:** Two essential layers of security:
-* Enabling Multi-Factor Authentication (MFA) for the Root User.
-* Creating and consistently using an IAM User for daily operations.
-
-**Visualization Method:** A **Donut Chart** (rendered with Chart.js) visually representing these two crucial security layers as parts of a whole. This simple composition helps emphasize their combined importance.
-![alt text](<Screenshot 2025-07-31 135117.png>)
-
-### 4.2. Understand Your Users
-
-AWS defines distinct user types, each with a specific role in your account's security posture.
-
-* **Root User (👑):**
-    * **Role:** The main account identity with **unlimited access** to all services and resources.
-    * **Usage:** Should be used **ONLY** for critical account management tasks (e.g., changing support plans, closing the account, configuring billing), never for daily operational tasks.
-* **IAM User (👤):**
-    * **Role:** An individual user identity within your AWS account with **granular permissions**.
-    * **Usage:** This is your **day-to-day user** for building, managing, and interacting with AWS resources. You grant only the specific permissions needed for tasks, adhering to the principle of least privilege.
-
-**Visualization Method:** A comparison diagram constructed purely with **HTML and Tailwind CSS**. It uses two distinct, styled cards with Unicode icons (👑 for Root, 👤 for IAM) to visually differentiate and explain the purpose and best practices for each user type.
-
-![alt text](<Screenshot 2025-07-31 135203.png>)
+This project provided invaluable practical experience in the foundational first steps of using AWS, moving beyond a theoretical understanding to a tangible, hands-on demonstration.
 
 ---
 
-## Conclusion
+## 3. Hands-On Process Documentation
 
-This infographic serves as a clear and effective guide to initiating your journey into the AWS Cloud. By following these steps and immediately implementing the recommended security practices, you establish a solid and secure foundation for your future cloud endeavors.
+This section details the step-by-step execution of the AWS account creation process, serving as documentation of the completed practical steps.
 
+### Step 1: Account Prerequisites and Initial Registration
+
+Before starting, the required prerequisites were gathered: a valid email address, a phone number, and a credit card.
+
+1.  **Navigated to AWS:** Opened a web browser and went to `https://aws.amazon.com/`.
+2.  **Initiated Signup:** Clicked the **"Create an AWS Account"** button on the homepage.
+3.  **Entered Account Details:** On the signup page, the primary email address and a unique AWS account name were entered. A verification code was requested and successfully received.
+
+![alt text](<Screenshot 2025-08-01 045738.png>)
+
+### Step 2: Verification and Billing Information
+
+This phase involved confirming the account identity to AWS.
+
+1.  **Email Verification:** The verification code received via email was entered and confirmed.
+2.  **Root User Password:** A strong password was created for the root user, and this password was securely stored.
+3.  **Contact Information:** The account type was selected as "Personal," and personal contact information (full name, phone number, and address) was provided.
+4.  **Billing Information:** A valid credit card was entered for identity verification. A temporary authorization hold was placed on the card and released shortly after.
+5.  **Phone Verification:** A phone number was entered, and a verification code was requested via SMS. The code was received and entered successfully.
+
+ ![alt text](<Screenshot 2025-08-01 045934.png>)
+ ![alt text](<Screenshot 2025-08-01 045948.png>)
+ ![alt text](<Screenshot 2025-08-01 050038.png>)
+ ![alt text](<Screenshot 2025-08-01 050107.png>)
+ ![alt text](<Screenshot 2025-08-01 050205.png>)
+ ![alt text](<Screenshot 2025-08-01 050234.png>)
+ ![alt text](<Screenshot 2025-08-01 050629.png>)
+
+![alt text](<Screenshot 2025-08-01 050736.png>)
+![alt text](<Screenshot 2025-08-01 051208.png>)
+
+6.  **Support Plan:** The **"Basic Support (Free)"** plan was selected and confirmed.
+
+### Step 3: Accessing and Navigating the AWS Management Console
+
+After completing the signup, the account was ready for use.
+
+1.  **Confirmation and Sign-in:** The account creation was confirmed, and the user was prompted to go to the AWS Management Console.
+2.  **Login:** Using the email address for the root user and the password created in Step 1, a successful login was performed.
+3.  **Console Overview:** Upon logging in, the main dashboard of the AWS Management Console was visible. The key features identified were:
+    * **Services Menu:** A drop-down menu in the top-left corner, providing access to all AWS services.
+    * **Search Bar:** A prominent search bar at the top of the page for quickly finding services, features, and resources.
+    * **Account Dropdown:** A menu in the top-right corner showing the account name and ID, with options for billing, security credentials, and logging out.
+
+ ![alt text](<Screenshot 2025-08-01 051222.png>)
+ ![alt text](<Screenshot 2025-08-01 052600.png>)
+### Step 4: Post-Creation Security Setup (Best Practices)
+
+To ensure the account's security, two critical hands-on steps were performed immediately after logging in.
+
+#### 4.1. Enabling Multi-Factor Authentication (MFA) for the Root User
+
+1.  **Navigated to IAM:** From the Services menu, the **IAM (Identity and Access Management)** service was selected.
+2.  **Enabled MFA:** On the IAM dashboard, a security recommendation to enable MFA for the root user was clicked.
+3.  **MFA Setup:** A virtual MFA device (using a mobile authenticator app) was selected, and the QR code was scanned. The subsequent one-time passwords were used to complete the MFA setup process.
+
+   ![alt text](<Screenshot 2025-08-01 053451.png>)
+   ![alt text](<Screenshot 2025-08-01 053607.png>)
+   ![alt text](<Screenshot 2025-08-01 053640.png>)
+
+
+#### 4.2. Creating an IAM User for Daily Tasks
+
+1.  **Navigated to Users:** Within the IAM console, the "Users" option in the left-hand navigation pane was selected.
+2.  **Added New User:** The **"Add users"** button was clicked. A new user was created with a username and password.
+3.  **Permissions:** The `AdministratorAccess` policy was attached to the new user for full access, following a best-practice for a single-user account while still separating daily activity from the root user.
+4.  **Finalized Creation:** The IAM user was created, and its login URL was noted for future use.
+
+  ![alt text](<Screenshot 2025-08-01 054721.png>)
+  ![alt text](<Screenshot 2025-08-01 055518.png>)
+  ![alt text](<Screenshot 2025-08-01 055841.png>)
+  ![alt text](<Screenshot 2025-08-01 055953.png>)
+---
+
+## 4. Conclusion
+
+The AWS Account Creation project was successfully executed, with all hands-on steps completed and documented. 
